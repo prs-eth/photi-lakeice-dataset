@@ -27,7 +27,13 @@ example: Sihl_Cam2_2016_1221_10_07.jpg
 Lake_camera_year_monthdate_hour_minute.png (Lake StMoritz images)
 example: StMoritz_Cam1_2016_1221_10_07.png
 
-#### Winters included
+#### Ground truth annotation (4 Class) 
+- ice
+- snow
+- water
+- clutter
+
+#### 2 Winters included
 - 2016-17 
 - 2017-18
 
