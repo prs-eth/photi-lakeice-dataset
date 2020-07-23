@@ -5,7 +5,7 @@ This is a repository dedicated for the Photi-LakeIce dataset described in the pa
 
 ## What this repo contains?
 1. [Link](https://share.phys.ethz.ch/~pf/tommdata/Dataset.tar.xz) to download the Photi-LakeIce dataset (876 MB) with (a) RGB images, (b) pixel-wise ground truth annotations
-2. [Link](https://share.phys.ethz.ch/~pf/tommdata/Pre-trained_Model.tar.xz) to download the Deeplabv3+ model pre-trained on Photi-LakeIce datset
+2. [Link](https://share.phys.ethz.ch/~pf/tommdata/Pre-trained_Model.tar.xz) to download the Deeplabv3+ model (146 MB) pre-trained on Photi-LakeIce datset
 3. Details about the Photi-LakeIce dataset
 
 
