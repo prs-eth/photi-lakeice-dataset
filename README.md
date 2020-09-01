@@ -4,7 +4,7 @@ This is a repository dedicated for the Photi-LakeIce dataset described in the pa
 [Lake Ice Monitoring with Webcams and Crowd-​Sourced Images (Prabha et.al., 2020)](https://arxiv.org/pdf/2002.07875.pdf)
 
 ## What this repo contains?
-1. [Link](https://share.phys.ethz.ch/~pf/tommdata/Dataset.tar.xz) to download the Photi-LakeIce dataset (876 MB) with (a) RGB images, (b) pixel-wise ground truth annotations
+1. [Link](https://share.phys.ethz.ch/~pf/tommdata/Dataset.tar.xz) to download the Photi-LakeIce dataset (876 MB, 4017 images) with (a) RGB images, (b) pixel-wise ground truth annotations
 2. [Link](https://share.phys.ethz.ch/~pf/tommdata/Pre-trained_Model.tar.xz) to download the Deeplabv3+ model (146 MB) pre-trained on Photi-LakeIce datset
 3. Details about the Photi-LakeIce dataset
 
