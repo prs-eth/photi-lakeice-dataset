@@ -85,7 +85,7 @@ Kindly cite our papers, if you use this dataset in your work:
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pages     = {3555},<br>
 }   
 
->@inproceedings{prabha_tom_2020:isprs,<br>
+>@article{prabha_tom_2020:isprs,<br>
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;author={Prabha, R. and Tom, M. and Rothermel, M. and Baltsavias, E. and Leal-Taixe, L. and Schindler, K.},<br>
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title={Lake Ice Monitoring with Webcams and Crowd-Sourced Images},<br>
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;booktitle={ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci.},<br>
