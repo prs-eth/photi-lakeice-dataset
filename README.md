@@ -6,8 +6,8 @@ This is a repository dedicated for the Photi-LakeIce dataset described in the pa
 >[Lake Ice Monitoring with Webcams and Crowd-​Sourced Images (Prabha et.al., 2020)](https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-2-2020/549/2020/isprs-annals-V-2-2020-549-2020-relations.html)
 
 ## What this repo contains?
-1. [Link](https://share.phys.ethz.ch/~pf/tommdata/Dataset.tar.xz) to download the Photi-LakeIce dataset (876 MB, 4017 images) with (a) RGB images, (b) pixel-wise ground truth annotations
-2. [Link](https://share.phys.ethz.ch/~pf/tommdata/Pre-trained_Model.tar.xz) to download the Deeplabv3+ model (146 MB) pre-trained on Photi-LakeIce datset
+1. [Link](https://share.phys.ethz.ch/~pf/tommdata/Dataset.tar.xz) to download the Photi-LakeIce dataset (876 MB, 4017 images) with (a) RGB webcam images, (b) pixel-wise ground truth annotations
+2. [Link](https://share.phys.ethz.ch/~pf/tommdata/Pre-trained_Model.tar.xz) to download the [Deep-U-Lab](https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-2-2020/549/2020/isprs-annals-V-2-2020-549-2020-relations.html) model (146 MB) pre-trained on Photi-LakeIce datset
 3. Details about the Photi-LakeIce dataset
 
 
@@ -35,7 +35,7 @@ example: StMoritz_Cam1_2016_1221_10_07.png
 - water
 - clutter
 
-### 2 Winters included
+### Two winters included
 - 2016-17 
 - 2017-18
 
@@ -53,12 +53,12 @@ example: StMoritz_Cam1_2016_1221_10_07.png
 ![](figures/Example_images.png)
 
 ### Texture variability
-<img src="figures/Texture_variablity.png"/>
+<img src="figures/Texture_variablity.png" width=500/>
 
 ### Class imbalance
 <img src="figures/Class_imbalance.png"/>
 
-#### Some results of [Prabha et.al. (2020)](https://arxiv.org/pdf/2002.07875.pdf)
+## Some results from [Tom et.al. (2020)](https://www.mdpi.com/2072-4292/12/21/3555) and [Prabha et.al. (2020)](https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-2-2020/549/2020/isprs-annals-V-2-2020-549-2020-relations.html)
 
 ### Qualitative results
 <img src="figures/Example_results_Qualitative.png"/>
@@ -73,7 +73,7 @@ example: StMoritz_Cam1_2016_1221_10_07.png
 ![](figures/Example_results_PRcurve.png)
 
 ## Citation
-Kindly cite our papers, if you use this repo:
+Kindly cite our papers, if you use this dataset in your work:
 
 > @article{tom_prabha_2020:isprs,<br>
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;author    = {Manu Tom and Rajanie Prabha and Tianyu Wu and Emmanuel Baltsavias and Laura Leal-Taixe and Konrad Schindler},<br>
@@ -94,7 +94,9 @@ Kindly cite our papers, if you use this repo:
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pages={549–556},
 >}
 
-## References
-1. Tom, M., Suetterlin, M., Bouffard, D., Rothermel, M., Wunderle, S., Baltsavias, E., 2019. [Integrated monitoring of ice
-in selected Swiss lakes](https://ethz.ch/content/dam/ethz/special-interest/baug/igp/photogrammetry-remote-sensing-dam/documents/pdf/Misc/Ice%20Lake_Final_Report_draft15.pdf). Final Project Report
-2. [Github repo (Tensorflow code)](https://github.com/czarmanu/deeplab-lakeice-webcams) of Prabha et. al. (2020)
+## Useful links
+1. Multi-sensor lake ice monitoring with machine (deep) learning. [Project github page](https://github.com/czarmanu/lake-ice-ml).
+2. Lake ice monitoring with webcams and crowd-sourced images with Deep-U-Lab. [Github repo (tensorflow code, pre-trained model)](https://github.com/czarmanu/deeplab-lakeice-webcams).
+3. Lake ice detection from Sentinel-1 SAR with deep learning. [Github repo (tensorflow code, pre-trained model)](https://github.com/czarmanu/sentinel_lakeice). [Paper](https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-3-2020/409/2020/) 
+4. Tom, M., Suetterlin, M., Bouffard, D., Rothermel, M., Wunderle, S., Baltsavias, E., 2019. [Integrated monitoring of ice
+in selected Swiss lakes](https://arxiv.org/abs/2008.00512). Final Project Report
