@@ -89,9 +89,9 @@ Kindly cite our papers, if you use this dataset in your work:
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;author={Prabha, R. and Tom, M. and Rothermel, M. and Baltsavias, E. and Leal-Taixe, L. and Schindler, K.},<br>
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title={Lake Ice Monitoring with Webcams and Crowd-Sourced Images},<br>
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;booktitle={ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci.},<br>
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year={2020},
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;volume={V-2-2020},
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pages={549–556},
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year={2020},<br>
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;volume={V-2-2020},<br>
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pages={549–556},<br>
 >}
 
 ## Useful links
