@@ -1,7 +1,9 @@
 # Photi-LakeIce Dataset
 
-This is a repository dedicated for the Photi-LakeIce dataset described in the paper:
-[Lake Ice Monitoring with Webcams and Crowd-​Sourced Images (Prabha et.al., 2020)](https://arxiv.org/pdf/2002.07875.pdf)
+This is a repository dedicated for the Photi-LakeIce dataset described in the papers:<br>
+
+>[Ice Monitoring in Swiss Lakes from Optical Satellites and Webcams using Machine Learning (Tom et.al., 2020)](https://www.mdpi.com/2072-4292/12/21/3555)<br>
+>[Lake Ice Monitoring with Webcams and Crowd-​Sourced Images (Prabha et.al., 2020)](https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-2-2020/549/2020/isprs-annals-V-2-2020-549-2020-relations.html)
 
 ## What this repo contains?
 1. [Link](https://share.phys.ethz.ch/~pf/tommdata/Dataset.tar.xz) to download the Photi-LakeIce dataset (876 MB, 4017 images) with (a) RGB images, (b) pixel-wise ground truth annotations
@@ -11,7 +13,7 @@ This is a repository dedicated for the Photi-LakeIce dataset described in the pa
 
 ## Dataset details
 
-#### Folder structure 
+### Folder structure 
   ```bash
 ├── dataset
     ├── lake
@@ -21,66 +23,76 @@ This is a repository dedicated for the Photi-LakeIce dataset described in the pa
                 ├── labels
 ├── readme.txt
 ```
-#### Naming convention for each image in the 'Data' and 'Labels' folders
+### Naming convention for each image in the 'Data' and 'Labels' folders
 Lake_camera_year_monthdate_hour_minute.jpg (Lake Sihl images)
 example: Sihl_Cam2_2016_1221_10_07.jpg
 Lake_camera_year_monthdate_hour_minute.png (Lake StMoritz images)
 example: StMoritz_Cam1_2016_1221_10_07.png
 
-#### Ground truth annotation (4 Class) 
+### Ground truth annotation (4 Class) 
 - ice
 - snow
 - water
 - clutter
 
-#### 2 Winters included
+### 2 Winters included
 - 2016-17 
 - 2017-18
 
-#### Lakes included
+### Lakes included
 - Sihl (47.1370° N, 8.7801° E) located in Canton Schwyz, Switzerland
 - St. Moritz (46.4942° N, 9.8449° E) located in Canton Graubuenden, Switzerland
 
-#### Cameras
-- 2 from lake St. Moritz (Cam0, Cam 1)
-- 1 from lake Sihl (Cam 2)
+### Cameras
+- 2 from lake St. Moritz (Camera 0, Camera 1)
+- 1 from lake Sihl (Camera 2)
 
-<img src="figures/Dataset_figures.png" width="360" height="180" />
+<img src="figures/Dataset_figures.png" />
 
-#### Example images
+### Example images
 ![](figures/Example_images.png)
 
-#### Texture variability
-<img src="figures/Texture_variablity.png" width="360" height="200" />
+### Texture variability
+<img src="figures/Texture_variablity.png"/>
 
-#### Class imbalance
-<img src="figures/Class_imbalance.png" width="600" height="350" />
+### Class imbalance
+<img src="figures/Class_imbalance.png"/>
 
 #### Some results of [Prabha et.al. (2020)](https://arxiv.org/pdf/2002.07875.pdf)
 
-##### Qualitative results
-<img src="figures/Example_results_Qualitative.png" width="500" height="400" />
+### Qualitative results
+<img src="figures/Example_results_Qualitative.png"/>
 
-##### Quantitative results
+### Quantitative results
 ![](figures/Example_results_Quantitative.png)
 
-##### Timeline results
+### Timeline results
 ![](figures/Example_results_Timeline.png)
 
-##### Precision-Recall curves
+### Precision-Recall curves
 ![](figures/Example_results_PRcurve.png)
 
-
 ## Citation
-Kindly cite our paper, if you use this repo:
+Kindly cite our papers, if you use this repo:
 
-@inproceedings{prabha_tom_2020:isprs,
-author={Prabha, R. and Tom, M. and Rothermel, M. and Baltsavias, E. and Leal-Taixe, L. and Schindler, K.},
-booktitle={arXiv preprint: arXiv:2002.07875v2},
-title={Lake Ice Monitoring with Webcams and Crowd-Sourced Images},
-year={2020},
-}
+> @article{tom_prabha_2020:isprs,<br>
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;author    = {Manu Tom and Rajanie Prabha and Tianyu Wu and Emmanuel Baltsavias and Laura Leal-Taixe and Konrad Schindler},<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title     = {Ice Monitoring in Swiss Lakes from Optical Satellites and Webcams Using Machine Learning},<br>
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;journal   = {Remote Sens.},<br>
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year      = {2020},<br>
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;volume    = {12},<br>
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;issue     = {21},<br>
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pages     = {3555},<br>
+}   
 
+>@inproceedings{prabha_tom_2020:isprs,<br>
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;author={Prabha, R. and Tom, M. and Rothermel, M. and Baltsavias, E. and Leal-Taixe, L. and Schindler, K.},<br>
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title={Lake Ice Monitoring with Webcams and Crowd-Sourced Images},<br>
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;booktitle={ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci.},<br>
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year={2020},
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;volume={V-2-2020},
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pages={549–556},
+>}
 
 ## References
 1. Tom, M., Suetterlin, M., Bouffard, D., Rothermel, M., Wunderle, S., Baltsavias, E., 2019. [Integrated monitoring of ice
