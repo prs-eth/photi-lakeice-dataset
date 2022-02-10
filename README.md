@@ -94,9 +94,14 @@ Kindly cite our papers, if you use this dataset in your work:
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pages={549–556},<br>
 >}
 
-## Useful links
+## Related links
 1. Multi-sensor lake ice monitoring with machine (deep) learning. [Project github page](https://github.com/czarmanu/lake-ice-ml).
 2. Lake ice monitoring with webcams and crowd-sourced images with Deep-U-Lab. [Github repo (tensorflow code, pre-trained model)](https://github.com/czarmanu/deeplab-lakeice-webcams).
 3. Lake ice detection from Sentinel-1 SAR with deep learning. [Github repo (tensorflow code, pre-trained model)](https://github.com/czarmanu/sentinel_lakeice). [Paper](https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-3-2020/409/2020/) 
-4. Tom, M., Suetterlin, M., Bouffard, D., Rothermel, M., Wunderle, S., Baltsavias, E., 2019. [Integrated monitoring of ice
+4. Tom, M., Wu, T., Baltsavias, E., Schindler, K., 2021. Recent Ice Trends in Swiss Mountain Lakes: 20-year Analysis of MODIS Imagery. [Paper](https://arxiv.org/abs/2103.12434)
+5. Tom, M., Jiang, Y., Baltsavias, E., Schindler, K., 2021. Learning a Sensor-invariant Embedding of Satellite Data: A Case Study for Lake Ice Monitoring. [Paper](https://arxiv.org/abs/2107.09092)
+6. Tom, M., Suetterlin, M., Bouffard, D., Rothermel, M., Wunderle, S., Baltsavias, E., 2019. [Integrated monitoring of ice
 in selected Swiss lakes](https://arxiv.org/abs/2008.00512). Final Project Report
+7. Tom, M., Baltsavias, E., Schindler, K., 2020. [Integrated Lake Ice Monitoring and Generation of Sustainable, Reliable, Long Time-Series](https://ethz.ch/content/dam/ethz/special-interest/baug/igp/photogrammetry-remote-sensing-dam/documents/pdf/Misc/Lake_Ice_Project_Final_Report.pdf). Final Project Report
+
+
